@@ -10,7 +10,7 @@ public class PessoaResponse {
 
 
     public static PessoaResponse converter(Pessoa p){
-        var pessoa = new Pessoa();
+        var pessoa = new PessoaResponse();
         pessoa.setId(p.getId());
         pessoa.setNome(p.getNome());
         pessoa.setSobrenome(p.getSobrenome());
