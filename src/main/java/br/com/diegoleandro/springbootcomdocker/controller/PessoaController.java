@@ -1,9 +1,7 @@
 package br.com.diegoleandro.springbootcomdocker.controller;
 
 import br.com.diegoleandro.springbootcomdocker.controller.dto.PessoaResponse;
-import br.com.diegoleandro.springbootcomdocker.model.Pessoa;
 import br.com.diegoleandro.springbootcomdocker.service.PessoaService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
